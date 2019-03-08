@@ -43,7 +43,7 @@
 			else if(guessesLeft === 0){
 				losses++;
 				document.querySelector('#losses').innerHTML = "Losses: " + losses;
-				alert("You are not psychic! That's okay.");
+				alert("You are not psychic! But that's okay.");
 				console.log('losses', losses);
 				console.log('guessesLeft', guessesLeft);
 				console.log(computerChoice);
