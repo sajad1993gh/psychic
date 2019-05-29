@@ -57,5 +57,3 @@ document.onkeyup = function(event) {
         console.log(computerChoice);
     }
 }
-
-// gameReset();
