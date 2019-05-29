@@ -25,8 +25,7 @@ function gameReset() {
 //the user picks a letter of the alphabet
 document.onkeyup = function(event) {
     //the key the user presses becomes userChoice
-    userChoice = event.key;
-    // var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+    userChoice = String.fromCharCode(event.keyCode).toLowerCase();
     //if user guesses right letter, WIN
     //increment wins counter
     //reset guesses left, wrong guesses, and randomize computer choice
@@ -59,4 +58,4 @@ document.onkeyup = function(event) {
     }
 }
 
-gameReset();
+// gameReset();
