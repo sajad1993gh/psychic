@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>The Psychic Game</title>
-  <link href="main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>The Psychic Game</title>
+    <link href="main.css" rel="stylesheet">
 </head>
+
 <body>
 
-	<div id="game">
-  		<h1>Are you psychic? Let's see!!</h1>
-      <h2>Please start typing!</h2>
-  			<ul>
-  				<li><p id="wins">Wins: </p></li>
-      			<li><p id="losses">Losses: </p></li>
-      			<li><p id="guessesLeft">Guesses Left: </p></li>
-				<li><p id="wrongGuesses">Letters used: </p></li>
-			</ul>
-  	</div>
-	<script src ="app.js">document.querySelector("#game").innerHTML = html;
-	</script>
+    <div id="game">
+        <div class="list">
+            <h1>Are you psychic? Let's see!!</h1>
+            <h2>Please start typing!</h2>
+
+            <ul>
+                <li>
+                    <p id="wins">Wins: </p>
+                </li>
+                <li>
+                    <p id="losses">Losses: </p>
+                </li>
+                <li>
+                    <p id="guessesLeft">Guesses Left: </p>
+                </li>
+                <li>
+                    <p id="wrongGuesses">Letters used: </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js">
+        document.querySelector("#game").innerHTML = html;
+    </script>
 
 </body>
+
 </html>

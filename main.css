@@ -1,10 +1,6 @@
-div {
+#game {
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    background: black;
-    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
     padding: 100px;
     bottom: 200;
     margin: 0;
@@ -30,13 +26,15 @@ ul {
     display: inline;
     padding: 10px 10px 0px 10px;
     color: rgba(255, 255, 255, 1);
-    background: black;
-    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
 }
 
 h1 {
     margin-top: 0px;
     margin-bottom: 150px;
+}
+
+.list {
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
 }
